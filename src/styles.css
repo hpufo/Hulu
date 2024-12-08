@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: grey;
+  padding: 20px;
+}
+dialog{
+  margin: auto;
+  padding: 15px;
+  background-color: black;
+  color: grey;
+  text-align: center;
+}
+dialog > *{
+  margin-bottom: 10px;
+}
+.hidden{
+  visibility: hidden;
+}
+.componentRow{
+  display: flex;
+  margin-bottom: 20px;
+  height: 246px;
+}
+.category{
+  color: white;
+}
+.imgWrapper{
+  width: 420px;
+  margin-right: 15px;
+}
+.showTitle{
+  font-size: 16px;
+  font-weight: bold;
+}
+.additionalDetails{
+  font-size: 12px;
+}
+.active > .hubImage{
+  border: 5px solid white;
+}
+.active > .showTitle{
+  color: white;
+}
