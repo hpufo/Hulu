@@ -4,12 +4,13 @@ import { createComponentRow, updateTitleRow } from './components/tileRow';
 import { updateTile, setActive, removeActive } from './components/tile';
 import { createDialog, updateDialog } from './components/dialog';
 import { handleFailedImage } from './utils/helper';
+import { HUB_WIDTH, HUB_HEIGHT } from './utils/constants';
 import './styles.css';
 
 //App state:
 let data:Category[]=[];
-let windowHeight = Math.ceil(window.screen.availHeight/287)+1;
-let windowWidth = Math.ceil(window.screen.availWidth/420)+1;
+let windowHeight = Math.ceil(window.screen.availHeight/(HUB_HEIGHT+87))+1;
+let windowWidth = Math.ceil(window.screen.availWidth/(HUB_WIDTH+20))+1;
 let dir:string;
 
 function handleInput(e:KeyboardEvent){
