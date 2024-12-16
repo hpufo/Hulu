@@ -2,7 +2,7 @@ import imgError from '../assets/imgError.webp';
 import {HUB_HEIGHT,HUB_WIDTH,FOCUSED_HEIGHT,FOCUSED_WIDTH,IMAGE_FORMAT} from './constants';
 import { CollectionComponent, View } from '../types/types';
 
-export const proxyUrl = (url:string) => 'https://corsproxy.io/?' + encodeURIComponent(url);
+export const proxyUrl = (url:string) => 'https://cors-proxy-ouak.onrender.com/?target=' + encodeURIComponent(url);
 
 export function componentToObject(component:CollectionComponent){
   return {category: component.name, rowRef: null, colOffset: 0, items: component.items.map((item: View) => ({
