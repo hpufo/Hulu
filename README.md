@@ -11,5 +11,3 @@ To run locally:
 1) Run the proxy server: node proxy.js
 
 2) Run the app(In another terminal window): run npm start
-
-App is hosted at(May not work due to reliance on a free proxy which has limitations): https://hpufo.github.io/Hulu/
