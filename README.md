@@ -6,6 +6,10 @@ To set up locally: npm install
 
 To ensure all images exist for the app: node ./generateHubImgs.js
 
-To run locally: run npm start
+To run locally: 
 
-App is hosted at: https://hpufo.github.io/Hulu/
+1) Run the proxy server: node proxy.js
+
+2) Run the app(In another terminal window): run npm start
+
+App is hosted at(May not work due to reliance on a free proxy which has limitations): https://hpufo.github.io/Hulu/

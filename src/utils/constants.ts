@@ -6,3 +6,4 @@ export const IMAGE_FORMAT='webp';
 export const AVAILABLE_WIDTH = window.screen.availWidth;
 export const AVAILABLE_HEIGHT = window.screen.availHeight;
 export const HUB_URL = 'https://du841e2hrnlc1.cloudfront.net/hub.json';
+export const PROXY = 'http://localhost:3000/?target=';
